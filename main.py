@@ -1,7 +1,14 @@
-textm = "Belarus"
-textb = [1, 2, 3 ,4, "database"]
-def code(p1, p2):
-    result = p1 + p2
-    return result
-z = code
-print(z(9, 9))
+y = [2, 3, 5, 10 ,10, 10, 7, 2, 2, 2, 5, 4, 3, 3]
+def bts(x, y):
+    y = [2, 3, 5, 10 ,10, 10, 7, 2, 2, 2, 5, 4, 3, 3]
+    x = len(y)
+    return(sum(y) / x)
+
+z = bts(x=len(y), y=[2, 3, 5, 10 ,10, 10, 7, 2, 2, 2, 5, 4, 3, 3])
+print(z)
+
+# task 2
+text = "крутой текст, вот прям уверен, вот прям на все тысячи процентов. r"
+def func():
+    print(text.count(','))
+func()
